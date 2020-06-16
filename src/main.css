@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Exo2";    
+    src: url("fonts/Exo2-Regular.ttf"); /* Путь к файлу со шрифтом */  
+    font-weight: normal; 
+    font-style: normal;  
+} 
+
+body{
+    font-family: 'Exo2';
+    background-color: white;
+    margin: 0; 
+    padding: 0px;
+    background-color: #0D2534;
+    width: 426px;
+    height: 600px;
+    position: absolute;
+}
+
+
+#calc input[type="button"]{
+    margin-left: 2px;
+    font-size: 25;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #0D2534;
+    color: #EEEEEE;
+    font-family: 'Exo2';    
+}
+#calc input[type="button"]:hover{
+    background-color: #2a3d49;
+    color: #EEEEEE ;
+    border: none;    
+}
+
+#calc input[type="button"]:active{
+    background-color: #74ff3b;
+    color: #EEEEEE ;
+    border: none;    
+}
+
+#num_field{
+    border:none;
+    color: #0D2534;
+    background-color: #EEEEEE;
+    width: 416px;
+    height: 120px;
+    max-width: 416px;
+    max-height: 120px;
+    font-size: 25;
+    text-align: right;
+    display: table-cell; 
+    vertical-align: middle;
+    word-wrap: break-word; 
+    resize: none;
+}
+

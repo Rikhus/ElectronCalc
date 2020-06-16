@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="src/main.css">
+        <script src="src/main.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <table id="calc">
+            <tr>
+                <td>
+                    <div id="num_field" name="num_field"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>                
+                    <input type="button" onclick="add(this)" name="btn_c" style="background-color: #FF2D79;" value="C">
+                    <input type="button" onclick="add(this)" name="btn_backspace" value="<">
+                    <input type="button" onclick="add(this)" name="btn_percent" value="%">
+                    <input type="button" onclick="add(this)" name="btn_division" value="/">
+                </td>            
+            </tr>
+            <tr>
+                <td>                
+                    <input type="button" onclick="add(this)" name="btn_7" value="7">
+                    <input type="button" onclick="add(this)" name="btn_8" value="8">
+                    <input type="button" onclick="add(this)" name="btn_9" value="9">
+                    <input type="button" onclick="add(this)" name="btn_multiple" value="*">
+                </td>                      
+            </tr>
+            <tr>
+                <td>                
+                    <input type="button" onclick="add(this)" name="btn_4" value="4">
+                    <input type="button" onclick="add(this)" name="btn_5" value="5">
+                    <input type="button" onclick="add(this)" name="btn_6" value="6">
+                    <input type="button" onclick="add(this)" name="btn_minus" value="-">
+                </td>                    
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" onclick="add(this)" name="btn_1" value="1">
+                    <input type="button" onclick="add(this)" name="btn_2" value="2">
+                    <input type="button" onclick="add(this)" name="btn_3" value="3">
+                    <input type="button" onclick="add(this)" name="btn_plus" value="+">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="add(this)" type="button" name="btn_0" value="0">
+                    <input onclick="add(this)" type="button" name="btn_point" value=".">
+                    <input onclick="add(this)" type="button" name="btn_equal" style="width: 204px; background-color: #04B1FF;" value="=">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
